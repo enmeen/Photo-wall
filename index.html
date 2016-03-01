@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>照片墙</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="wrap">
+		<div class="photo photo_font" id="photo_{{index}}">
+			<div class="photo_wrap">
+				<div class="side side_font">
+				<p class="img"><img src="images/photo_2 ({{img}}).jpg"></p>
+				<p class="caption">{{caption}}</p>
+				</div>
+				<div class="side side_back">
+					<p>{{desc}}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src='images/data.js'></script>
+	<script type="text/javascript" src="js/js.js"></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+快速刷新下，偶尔会出现脚本错误  弹出can't read property 'className' of null
