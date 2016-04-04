@@ -55,7 +55,6 @@
     //5.添加点击翻转事件.可以直接内嵌在html中.这里要考虑到for循环 bug
     function clickTurn() {
         var photo = g('.photo');
-
         for (var i = 0; i < photo.length; i++) {
             (function(_i) {
                 photo[_i].addEventListener('click', function() {
